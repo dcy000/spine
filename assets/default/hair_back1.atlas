@@ -1,0 +1,48 @@
+
+hair_back1.png
+size: 1596,291
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2ponytail_a
+  rotate: true
+  xy: 2, 2
+  size: 138, 501
+  orig: 138, 501
+  offset: 0, 0
+  index: -1
+2ponytail_a_c
+  rotate: true
+  xy: 505, 155
+  size: 134, 490
+  orig: 134, 490
+  offset: 0, 0
+  index: -1
+2ponytail_b
+  rotate: true
+  xy: 2, 142
+  size: 147, 501
+  orig: 147, 501
+  offset: 0, 0
+  index: -1
+2ponytail_b_c
+  rotate: true
+  xy: 505, 8
+  size: 145, 473
+  orig: 145, 473
+  offset: 0, 0
+  index: -1
+hair_front
+  rotate: false
+  xy: 997, 4
+  size: 301, 285
+  orig: 301, 285
+  offset: 0, 0
+  index: -1
+hair_front_c
+  rotate: false
+  xy: 1300, 10
+  size: 294, 279
+  orig: 294, 279
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+scok1.png
+size: 73,33
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l_scok4_c
+  rotate: true
+  xy: 54, 2
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+l_scok5_c
+  rotate: true
+  xy: 2, 2
+  size: 29, 50
+  orig: 29, 50
+  offset: 0, 0
+  index: -1

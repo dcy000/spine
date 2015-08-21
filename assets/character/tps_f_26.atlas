@@ -1,0 +1,146 @@
+
+tps_f_26.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloth
+  rotate: true
+  xy: 0, 38
+  size: 86, 128
+  orig: 87, 128
+  offset: 1, 0
+  index: -1
+sleeve_01
+  rotate: true
+  xy: 483, 98
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+sleeve_02
+  rotate: false
+  xy: 298, 102
+  size: 29, 22
+  orig: 29, 22
+  offset: 0, 0
+  index: -1
+sleeve_03
+  rotate: false
+  xy: 329, 102
+  size: 29, 22
+  orig: 29, 22
+  offset: 0, 0
+  index: -1
+sleeve_04
+  rotate: false
+  xy: 360, 104
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+sleeve_05
+  rotate: false
+  xy: 391, 104
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+sleeve_06
+  rotate: false
+  xy: 422, 104
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+sleeve_07
+  rotate: false
+  xy: 453, 104
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: -1
+sleeve_08
+  rotate: false
+  xy: 130, 34
+  size: 27, 20
+  orig: 27, 20
+  offset: 0, 0
+  index: -1
+sleeve_09
+  rotate: false
+  xy: 298, 82
+  size: 27, 18
+  orig: 27, 18
+  offset: 0, 0
+  index: -1
+sleeve_10
+  rotate: false
+  xy: 0, 0
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+sleeve_b_01
+  rotate: false
+  xy: 215, 58
+  size: 38, 32
+  orig: 38, 32
+  offset: 0, 0
+  index: -1
+sleeve_b_02
+  rotate: false
+  xy: 130, 90
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+sleeve_b_03
+  rotate: false
+  xy: 26, 2
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+sleeve_b_04
+  rotate: false
+  xy: 130, 56
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+sleeve_b_05
+  rotate: false
+  xy: 173, 92
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+sleeve_b_06
+  rotate: false
+  xy: 69, 4
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+sleeve_b_07
+  rotate: false
+  xy: 173, 58
+  size: 40, 32
+  orig: 40, 32
+  offset: 0, 0
+  index: -1
+sleeve_b_08
+  rotate: false
+  xy: 216, 92
+  size: 39, 32
+  orig: 39, 32
+  offset: 0, 0
+  index: -1
+sleeve_b_09
+  rotate: false
+  xy: 257, 94
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1

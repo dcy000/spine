@@ -1,0 +1,41 @@
+
+badumtsss.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cymbal
+  rotate: false
+  xy: 272, 210
+  size: 152, 32
+  orig: 153, 32
+  offset: 0, 0
+  index: -1
+drums
+  rotate: false
+  xy: 0, 8
+  size: 270, 234
+  orig: 270, 234
+  offset: 0, 0
+  index: -1
+drumstick
+  rotate: false
+  xy: 0, 0
+  size: 94, 6
+  orig: 94, 6
+  offset: 0, 0
+  index: -1
+
+hair_f_41.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hair_side_a
+  rotate: true
+  xy: 0, 0
+  size: 75, 189
+  orig: 75, 189
+  offset: 0, 0
+  index: -1
+

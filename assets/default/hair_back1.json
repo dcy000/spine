@@ -1,0 +1,176 @@
+{
+"skeleton": {
+	"hash": "7XKJxRSwg0Vy8yKoAxMHqVkTuRo",
+	"spine": "2.1.27",
+	"width": 530.38,
+	"height": 551.28,
+	"images": "E:/jiaohu/output/parts/hair_back/hair_back1/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hip", "parent": "root", "length": 51.04, "x": -217.82, "y": 27.74, "rotation": -90, "color": "32279cff" },
+	{ "name": "torso", "parent": "hip", "length": 80.3, "x": 0.41, "y": -0.52, "rotation": -176.84, "color": "2b96e0ff" },
+	{ "name": "neck", "parent": "torso", "length": 27.86, "x": 79.54, "y": 0.09, "rotation": 1.81, "color": "e0bd0eff" },
+	{ "name": "head", "parent": "neck", "length": 245.51, "x": 31.5, "y": -0.33, "rotation": -4.95, "color": "ffffffff" },
+	{ "name": "fringe_a", "parent": "head", "x": 186, "y": 42, "color": "ffffffff" },
+	{ "name": "fringe_b", "parent": "head", "x": 185, "y": -77.99, "color": "ffffffff" },
+	{ "name": "head_center", "parent": "head", "x": 239.98, "y": 12.44, "color": "ffffffff" },
+	{ "name": "2ponytail_a", "parent": "head_center", "length": 246.49, "x": -39, "y": 87.22, "rotation": 180, "color": "ffffffff" },
+	{
+		"name": "2ponytail_b",
+		"parent": "head_center",
+		"length": 246.49,
+		"x": -40.05,
+		"y": -113.7,
+		"rotation": 180,
+		"color": "ffffffff"
+	},
+	{ "name": "ear_l", "parent": "head_center", "x": -186, "y": 93, "color": "ffffffff" },
+	{ "name": "ear_r", "parent": "head_center", "x": -186, "y": -118, "color": "ffffffff" },
+	{ "name": "hat", "parent": "head_center", "y": -18, "color": "ffffffff" },
+	{ "name": "look", "parent": "head_center", "x": -179.36, "y": -51.57, "color": "ffffffff" },
+	{ "name": "blush_l", "parent": "look", "x": -32.21, "y": 77.66, "color": "ffffffff" },
+	{ "name": "blush_r", "parent": "look", "x": -32.28, "y": -52.33, "scaleX": 0.8, "scaleY": 0.6, "color": "ffffffff" },
+	{ "name": "blushs_l", "parent": "look", "x": -30.13, "y": 92.08, "color": "ffffffff" },
+	{ "name": "blushs_r", "parent": "look", "x": -30.22, "y": -67.91, "scaleX": 0.8, "scaleY": -0.8, "color": "ffffffff" },
+	{ "name": "eye_l", "parent": "look", "x": 2, "y": 66, "color": "ff2034ff" },
+	{ "name": "eye_r", "parent": "look", "x": 1.93, "y": -43.99, "color": "ff2034ff" },
+	{ "name": "glasses_a", "parent": "look", "x": -4, "y": 24.1, "color": "ffffffff" },
+	{ "name": "hair_front_a", "parent": "look", "length": 230.86, "x": 128.17, "y": 102.01, "rotation": 175.91, "color": "ffffffff" },
+	{ "name": "hair_front_b", "parent": "look", "length": 235.14, "x": 131.12, "y": -69.15, "rotation": -177.79, "color": "ffffffff" },
+	{ "name": "mouth_low", "parent": "look", "x": -54, "y": 9, "color": "ffa300ff" },
+	{ "name": "mouth_shapes", "parent": "look", "x": -48, "y": 6, "color": "ffa300ff" },
+	{ "name": "mouth_up", "parent": "look", "x": -53.99, "y": 9.92, "color": "ffa300ff" },
+	{ "name": "ponytail", "parent": "look", "length": 234.29, "x": 140.23, "y": 139.93, "rotation": 163.75, "color": "ffffffff" },
+	{ "name": "tongue", "parent": "look", "x": -56.46, "y": 30.36, "color": "ffffffff" },
+	{ "name": "blushs_l2", "parent": "blushs_l", "y": -10, "color": "ffffffff" },
+	{ "name": "blushs_l3", "parent": "blushs_l", "x": -0.01, "y": -20, "color": "ffffffff" },
+	{ "name": "blushs_l4", "parent": "blushs_l", "x": -0.01, "y": -30, "color": "ffffffff" },
+	{ "name": "blushs_l5", "parent": "blushs_l", "x": -0.02, "y": -40, "color": "ffffffff" },
+	{ "name": "blushs_l6", "parent": "blushs_l", "x": -0.02, "y": -50, "color": "ffffffff" },
+	{ "name": "blushs_r2", "parent": "blushs_r", "y": -10, "color": "ffffffff" },
+	{ "name": "blushs_r3", "parent": "blushs_r", "x": -0.01, "y": -20, "color": "ffffffff" },
+	{ "name": "blushs_r4", "parent": "blushs_r", "x": -0.01, "y": -30, "color": "ffffffff" },
+	{ "name": "blushs_r5", "parent": "blushs_r", "x": -0.02, "y": -40, "color": "ffffffff" },
+	{ "name": "eyeball_l", "parent": "eye_l", "y": -6, "color": "ff2034ff" },
+	{ "name": "eyeball_r", "parent": "eye_r", "y": -6, "color": "ff2034ff" },
+	{ "name": "eyebrow_a", "parent": "eye_l", "x": 61.41, "y": -49.02, "color": "ff2034ff" },
+	{
+		"name": "eyebrow_l",
+		"parent": "eye_l",
+		"length": 7.88,
+		"x": 70.52,
+		"y": 44.71,
+		"scaleY": 0.8,
+		"rotation": -71.13,
+		"color": "ff2034ff"
+	},
+	{
+		"name": "eyebrow_r",
+		"parent": "eye_r",
+		"length": 7.88,
+		"x": 69.48,
+		"y": -31.44,
+		"scaleX": -0.95,
+		"scaleY": 0.8,
+		"rotation": -108.16,
+		"color": "ff2034ff"
+	},
+	{ "name": "eyebug_l", "parent": "eye_l", "y": -6, "color": "ff2034ff" },
+	{ "name": "eyebug_r", "parent": "eye_r", "x": 0.31, "y": 5.99, "scaleX": 0.8, "scaleY": -0.75, "color": "ff2034ff" },
+	{ "name": "eyelow_l", "parent": "eye_l", "y": -6, "color": "ff2034ff" },
+	{ "name": "eyelow_r", "parent": "eye_r", "y": -6, "color": "ff2034ff" },
+	{ "name": "glasses_b", "parent": "glasses_a", "y": -40, "color": "ffffffff" },
+	{ "name": "mouth_low_l", "parent": "mouth_low", "length": 7.44, "x": 0.34, "y": 4.98, "rotation": 84.6, "color": "ffffffff" },
+	{
+		"name": "mouth_low_r",
+		"parent": "mouth_low",
+		"length": 7.44,
+		"x": 0.06,
+		"y": -4.42,
+		"scaleX": -1,
+		"rotation": 97.37,
+		"color": "ffffffff"
+	},
+	{ "name": "mouth_up_l", "parent": "mouth_up", "length": 7.44, "x": 0.34, "y": 4.98, "rotation": 84.6, "color": "ffffffff" },
+	{
+		"name": "mouth_up_r",
+		"parent": "mouth_up",
+		"length": 7.44,
+		"x": 0.06,
+		"y": -4.42,
+		"scaleX": -1,
+		"rotation": 97.37,
+		"color": "ffffffff"
+	},
+	{ "name": "black_l", "parent": "eyebug_l", "x": 4.39, "y": -4.7, "color": "ffffffff" },
+	{ "name": "black_r", "parent": "eyebug_r", "x": 3.66, "y": 3.08, "color": "ffffffff" },
+	{ "name": "eyebrow_l2", "parent": "eyebrow_l", "length": 7.88, "x": 9.43, "y": -0.14, "rotation": -4.88, "color": "ff2034ff" },
+	{ "name": "eyebrow_r2", "parent": "eyebrow_r", "length": 7.88, "x": 9.43, "y": -0.14, "rotation": 2.85, "color": "ff2034ff" },
+	{ "name": "light_l", "parent": "eyebug_l", "x": 4.39, "y": -4.7, "color": "ffffffff" },
+	{ "name": "light_l2", "parent": "eyebug_l", "x": -8.09, "y": 10.99, "scaleX": 0.6, "scaleY": 0.5, "color": "ffffffff" },
+	{ "name": "light_r", "parent": "eyebug_r", "x": 4.37, "y": 18.29, "rotation": -5, "color": "ffffffff" },
+	{
+		"name": "light_r2",
+		"parent": "eyebug_r",
+		"x": -12.4,
+		"y": 4.19,
+		"scaleX": 0.6,
+		"scaleY": 0.5,
+		"rotation": -5,
+		"color": "ffffffff"
+	},
+	{ "name": "mouth_low_l2", "parent": "mouth_low_l", "length": 7.44, "x": 8.01, "rotation": -10.85, "color": "ffffffff" },
+	{ "name": "mouth_low_r2", "parent": "mouth_low_r", "length": 7.44, "x": 7.87, "y": -0.17, "rotation": 13.11, "color": "ffffffff" },
+	{ "name": "mouth_up_l2", "parent": "mouth_up_l", "length": 7.44, "x": 8.01, "rotation": -10.85, "color": "ffffffff" },
+	{ "name": "mouth_up_r2", "parent": "mouth_up_r", "length": 7.44, "x": 7.87, "y": -0.17, "rotation": 13.11, "color": "ffffffff" },
+	{ "name": "eyebrow_l3", "parent": "eyebrow_l2", "length": 7.88, "x": 9.22, "y": -0.07, "rotation": -2.9, "color": "ff2034ff" },
+	{ "name": "eyebrow_r3", "parent": "eyebrow_r2", "length": 7.88, "x": 9.22, "y": -0.07, "rotation": 10.53, "color": "ff2034ff" },
+	{ "name": "mouth_low_l3", "parent": "mouth_low_l2", "length": 7.44, "x": 8.39, "rotation": -15.06, "color": "ffffffff" },
+	{ "name": "mouth_low_r3", "parent": "mouth_low_r2", "length": 7.44, "x": 7.81, "y": -0.04, "rotation": 9, "color": "ffffffff" },
+	{ "name": "mouth_up_l3", "parent": "mouth_up_l2", "length": 7.44, "x": 8.39, "rotation": -15.06, "color": "ffffffff" },
+	{ "name": "mouth_up_r3", "parent": "mouth_up_r2", "length": 7.44, "x": 7.81, "y": -0.04, "rotation": 9, "color": "ffffffff" },
+	{ "name": "eyebrow_l4", "parent": "eyebrow_l3", "length": 7.88, "x": 9.17, "y": 0.06, "rotation": -4.5, "color": "ff2034ff" },
+	{ "name": "eyebrow_r4", "parent": "eyebrow_r3", "length": 7.88, "x": 9.17, "y": 0.06, "rotation": 4.08, "color": "ff2034ff" },
+	{ "name": "eyebrow_l5", "parent": "eyebrow_l4", "length": 7.88, "x": 9.23, "y": 0.01, "rotation": -4.09, "color": "ff2034ff" },
+	{ "name": "eyebrow_r5", "parent": "eyebrow_r4", "length": 7.88, "x": 9.23, "y": 0.01, "rotation": 6.5, "color": "ff2034ff" },
+	{ "name": "eyebrow_l6", "parent": "eyebrow_l5", "length": 7.88, "x": 9.24, "y": 0.05, "rotation": -4.07, "color": "ff2034ff" },
+	{ "name": "eyebrow_r6", "parent": "eyebrow_r5", "length": 7.88, "x": 9.24, "y": 0.05, "rotation": 6.83, "color": "ff2034ff" },
+	{ "name": "eyebrow_l7", "parent": "eyebrow_l6", "length": 7.88, "x": 8.98, "y": 0.09, "rotation": -1.58, "color": "ff2034ff" },
+	{ "name": "eyebrow_l8", "parent": "eyebrow_l6", "length": 7.88, "x": 18.06, "y": -0.1, "rotation": -6.07, "color": "ff2034ff" },
+	{ "name": "eyebrow_l9", "parent": "eyebrow_l8", "length": 7.88, "x": 8.79, "y": -0.26, "rotation": -6.74, "color": "ff2034ff" }
+],
+"slots": [
+	{ "name": "2ponytail_b_c", "bone": "2ponytail_b", "color": "ffc800ff", "attachment": "2ponytail_b_c" },
+	{ "name": "2ponytail_b", "bone": "2ponytail_b", "attachment": "2ponytail_b" },
+	{ "name": "hair_front_c", "bone": "head_center", "color": "ffc800ff", "attachment": "hair_front_c" },
+	{ "name": "hair_front", "bone": "head_center", "attachment": "hair_front" },
+	{ "name": "2ponytail_a_c", "bone": "2ponytail_a", "color": "ffc800ff", "attachment": "2ponytail_a_c" },
+	{ "name": "2ponytail_a", "bone": "2ponytail_a", "attachment": "2ponytail_a" }
+],
+"skins": {
+	"default": {
+		"2ponytail_a": {
+			"2ponytail_a": { "x": 177.95, "y": -90.64, "rotation": 85.97, "width": 138, "height": 501 }
+		},
+		"2ponytail_a_c": {
+			"2ponytail_a_c": { "x": 182.37, "y": -91.95, "rotation": 85.97, "width": 134, "height": 490 }
+		},
+		"2ponytail_b": {
+			"2ponytail_b": { "x": 163.85, "y": 61.71, "rotation": 85.97, "width": 147, "height": 501 }
+		},
+		"2ponytail_b_c": {
+			"2ponytail_b_c": { "x": 175.82, "y": 60.87, "rotation": 85.97, "width": 145, "height": 473 }
+		},
+		"hair_front": {
+			"hair_front": { "x": -73.04, "y": 1.79, "rotation": -94.02, "width": 301, "height": 285 }
+		},
+		"hair_front_c": {
+			"hair_front_c": { "x": -73.08, "y": 1.29, "rotation": -94.02, "width": 294, "height": 279 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

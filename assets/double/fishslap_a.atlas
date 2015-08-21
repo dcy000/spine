@@ -1,0 +1,83 @@
+
+fishslap_a.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_a
+  rotate: false
+  xy: 124, 44
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+eye_b
+  rotate: false
+  xy: 228, 79
+  size: 21, 7
+  orig: 21, 7
+  offset: 0, 0
+  index: -1
+fish1
+  rotate: false
+  xy: 452, 41
+  size: 187, 83
+  orig: 188, 83
+  offset: 1, 0
+  index: -1
+fish2
+  rotate: false
+  xy: 661, 53
+  size: 187, 88
+  orig: 187, 88
+  offset: 0, 0
+  index: -1
+fish3
+  rotate: false
+  xy: 843, 162
+  size: 148, 86
+  orig: 149, 86
+  offset: 1, 0
+  index: -1
+fish4
+  rotate: false
+  xy: 0, 0
+  size: 122, 77
+  orig: 123, 78
+  offset: 0, 1
+  index: -1
+fish5
+  rotate: false
+  xy: 452, 126
+  size: 207, 122
+  orig: 208, 122
+  offset: 1, 0
+  index: -1
+fish6
+  rotate: false
+  xy: 228, 88
+  size: 222, 160
+  orig: 222, 160
+  offset: 0, 0
+  index: -1
+fish7
+  rotate: false
+  xy: 0, 79
+  size: 226, 169
+  orig: 227, 169
+  offset: 0, 0
+  index: -1
+fish8
+  rotate: false
+  xy: 661, 143
+  size: 180, 105
+  orig: 181, 105
+  offset: 1, 0
+  index: -1
+mouth_c
+  rotate: true
+  xy: 993, 166
+  size: 82, 26
+  orig: 82, 26
+  offset: 0, 0
+  index: -1

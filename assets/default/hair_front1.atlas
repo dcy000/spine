@@ -1,0 +1,62 @@
+
+hair_front1.png
+size: 762,397
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fringe_a
+  rotate: false
+  xy: 419, 18
+  size: 178, 173
+  orig: 178, 173
+  offset: 0, 0
+  index: -1
+fringe_a_c
+  rotate: false
+  xy: 419, 193
+  size: 176, 202
+  orig: 176, 202
+  offset: 0, 0
+  index: -1
+fringe_b
+  rotate: false
+  xy: 599, 2
+  size: 115, 197
+  orig: 115, 197
+  offset: 0, 0
+  index: -1
+fringe_b_c
+  rotate: false
+  xy: 597, 201
+  size: 163, 194
+  orig: 163, 194
+  offset: 0, 0
+  index: -1
+front_a_c
+  rotate: false
+  xy: 109, 5
+  size: 98, 390
+  orig: 98, 390
+  offset: 0, 0
+  index: -1
+front_b_c
+  rotate: false
+  xy: 209, 10
+  size: 103, 385
+  orig: 103, 385
+  offset: 0, 0
+  index: -1
+hair_front_a
+  rotate: false
+  xy: 314, 20
+  size: 103, 375
+  orig: 103, 375
+  offset: 0, 0
+  index: -1
+hair_front_b
+  rotate: false
+  xy: 2, 2
+  size: 105, 393
+  orig: 105, 393
+  offset: 0, 0
+  index: -1

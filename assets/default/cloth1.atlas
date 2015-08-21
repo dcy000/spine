@@ -1,0 +1,41 @@
+
+cloth1.png
+size: 219,154
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloth
+  rotate: false
+  xy: 130, 32
+  size: 87, 120
+  orig: 87, 120
+  offset: 0, 0
+  index: -1
+cloth_c
+  rotate: false
+  xy: 2, 5
+  size: 71, 48
+  orig: 71, 48
+  offset: 0, 0
+  index: -1
+cloth_line
+  rotate: true
+  xy: 2, 55
+  size: 97, 126
+  orig: 97, 126
+  offset: 0, 0
+  index: -1
+l_sleeve6_c
+  rotate: false
+  xy: 120, 2
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+l_sleeve_6
+  rotate: false
+  xy: 75, 7
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1

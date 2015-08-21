@@ -1,0 +1,66 @@
+{
+"skeleton": {
+	"hash": "Ngcw047LtxTdiUoqVrMaqREFWt8",
+	"spine": "2.1.27",
+	"width": 84.57,
+	"height": 53.53,
+	"images": "E:/jiaohu/output/parts/scok/scok1/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hip", "parent": "root", "length": 51.04, "x": -217.82, "y": 27.74, "rotation": -90, "color": "32279cff" },
+	{ "name": "leg_l_1", "parent": "hip", "length": 21.81, "x": 55.25, "y": -26.82, "rotation": -1.8, "color": "32279cff" },
+	{
+		"name": "leg_r_1",
+		"parent": "hip",
+		"length": 21.81,
+		"x": 53.87,
+		"y": 22.65,
+		"scaleX": 0.98,
+		"scaleY": 0.98,
+		"rotation": 1.2,
+		"color": "32279cff"
+	},
+	{ "name": "leg_l_2", "parent": "leg_l_1", "length": 22.54, "x": 22.06, "y": -0.04, "rotation": 0.45, "color": "32279cff" },
+	{ "name": "leg_r_2", "parent": "leg_r_1", "length": 22.54, "x": 22.06, "y": -0.04, "rotation": 0.45, "color": "32279cff" },
+	{ "name": "leg_l_3", "parent": "leg_l_2", "length": 21.81, "x": 22.3, "y": -0.21, "color": "32279cff" },
+	{ "name": "leg_r_3", "parent": "leg_r_2", "length": 21.81, "x": 22.3, "y": -0.21, "color": "32279cff" },
+	{ "name": "leg_l_4", "parent": "leg_l_3", "length": 21.81, "x": 21.56, "y": 0.01, "color": "32279cff" },
+	{ "name": "leg_r_4", "parent": "leg_r_3", "length": 21.81, "x": 21.56, "y": 0.01, "color": "32279cff" },
+	{ "name": "leg_l_5", "parent": "leg_l_4", "length": 22.27, "x": 21.35, "y": -0.35, "rotation": -0.45, "color": "32279cff" },
+	{ "name": "leg_r_5", "parent": "leg_r_4", "length": 22.27, "x": 21.35, "y": -0.35, "rotation": -0.45, "color": "32279cff" },
+	{ "name": "leg_l_6", "parent": "leg_l_5", "length": 26.38, "x": 22.28, "y": -0.27, "color": "32279cff" },
+	{ "name": "leg_r_6", "parent": "leg_r_5", "length": 26.38, "x": 22.28, "y": -0.27, "color": "32279cff" }
+],
+"slots": [
+	{ "name": "leg_r6_c", "bone": "leg_r_6" },
+	{ "name": "r_scok4_c", "bone": "leg_r_4", "attachment": "l_scok4_c" },
+	{ "name": "r_sock5_c", "bone": "leg_r_5", "attachment": "l_scok5_c" },
+	{ "name": "leg_l6_c", "bone": "leg_l_6" },
+	{ "name": "l_sock5_c", "bone": "leg_l_5", "attachment": "l_scok5_c" },
+	{ "name": "l_scok4_c", "bone": "leg_l_4", "attachment": "l_scok4_c" }
+],
+"skins": {
+	"default": {
+		"l_scok4_c": {
+			"l_scok4_c": { "x": 28.27, "y": -0.33, "rotation": 91.35, "width": 29, "height": 17 }
+		},
+		"l_sock5_c": {
+			"l_scok5_c": { "x": 10.24, "y": 0.28, "rotation": 91.8, "width": 29, "height": 50 }
+		},
+		"r_scok4_c": {
+			"l_scok4_c": { "x": 28.27, "y": -0.32, "rotation": 91.35, "width": 29, "height": 17 }
+		},
+		"r_sock5_c": {
+			"l_scok5_c": { "x": 10.23, "y": 0.28, "rotation": 91.8, "width": 29, "height": 50 }
+		}
+	},
+	"eye_a": {},
+	"eye_b": {},
+	"eye_c": {},
+	"eye_d": {}
+},
+"animations": {
+	"animation": {}
+}
+}

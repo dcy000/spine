@@ -1,0 +1,60 @@
+{
+"skeleton": {
+	"hash": "Wg8u458PA7lz0OTSLauY6XKsSgU",
+	"spine": "2.1.27",
+	"width": 99.77,
+	"height": 30.22,
+	"images": "E:/jiaohu/output/parts/shoes/shoes1/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "hip", "parent": "root", "length": 51.04, "x": -217.82, "y": 27.74, "rotation": -90, "color": "32279cff" },
+	{ "name": "leg_l_1", "parent": "hip", "length": 21.81, "x": 55.25, "y": -26.82, "rotation": -1.8, "color": "32279cff" },
+	{
+		"name": "leg_r_1",
+		"parent": "hip",
+		"length": 21.81,
+		"x": 53.87,
+		"y": 22.65,
+		"scaleX": 0.98,
+		"scaleY": 0.98,
+		"rotation": 1.2,
+		"color": "32279cff"
+	},
+	{ "name": "leg_l_2", "parent": "leg_l_1", "length": 22.54, "x": 22.06, "y": -0.04, "rotation": 0.45, "color": "32279cff" },
+	{ "name": "leg_r_2", "parent": "leg_r_1", "length": 22.54, "x": 22.06, "y": -0.04, "rotation": 0.45, "color": "32279cff" },
+	{ "name": "leg_l_3", "parent": "leg_l_2", "length": 21.81, "x": 22.3, "y": -0.21, "color": "32279cff" },
+	{ "name": "leg_r_3", "parent": "leg_r_2", "length": 21.81, "x": 22.3, "y": -0.21, "color": "32279cff" },
+	{ "name": "leg_l_4", "parent": "leg_l_3", "length": 21.81, "x": 21.56, "y": 0.01, "color": "32279cff" },
+	{ "name": "leg_r_4", "parent": "leg_r_3", "length": 21.81, "x": 21.56, "y": 0.01, "color": "32279cff" },
+	{ "name": "leg_l_5", "parent": "leg_l_4", "length": 22.27, "x": 21.35, "y": -0.35, "rotation": -0.45, "color": "32279cff" },
+	{ "name": "leg_r_5", "parent": "leg_r_4", "length": 22.27, "x": 21.35, "y": -0.35, "rotation": -0.45, "color": "32279cff" },
+	{ "name": "leg_l_6", "parent": "leg_l_5", "length": 26.38, "x": 22.28, "y": -0.27, "color": "32279cff" },
+	{ "name": "leg_r_6", "parent": "leg_r_5", "length": 26.38, "x": 22.28, "y": -0.27, "color": "32279cff" }
+],
+"slots": [
+	{ "name": "r_shoes6_c", "bone": "leg_r_6", "color": "282828ff", "attachment": "l_shoes6_c" },
+	{ "name": "r_shoes6", "bone": "leg_r_6", "attachment": "l_shoes6" },
+	{ "name": "l_shoes6_c", "bone": "leg_l_6", "color": "282828ff", "attachment": "l_shoes6_c" },
+	{ "name": "l_shoes6", "bone": "leg_l_6", "attachment": "l_shoes6" }
+],
+"skins": {
+	"default": {
+		"l_shoes6": {
+			"l_shoes6": { "x": 30.36, "y": 4.82, "rotation": 91.8, "width": 43, "height": 25 }
+		},
+		"l_shoes6_c": {
+			"l_shoes6_c": { "x": 30.36, "y": 4.82, "rotation": 91.8, "width": 37, "height": 19 }
+		},
+		"r_shoes6": {
+			"l_shoes6": { "x": 30.35, "y": 4.82, "rotation": 91.8, "width": 43, "height": 25 }
+		},
+		"r_shoes6_c": {
+			"l_shoes6_c": { "x": 30.35, "y": 4.82, "rotation": 91.8, "width": 37, "height": 19 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}
