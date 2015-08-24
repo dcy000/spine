@@ -16,7 +16,7 @@ import com.esotericsoftware.spine.Slot;
 import com.esotericsoftware.spine.SlotData;
 
 public class Character {
-	private AnimationState mAnimationState;
+	public AnimationState mAnimationState;
 	private String animateName;
 	private Skeleton mSkeleton;
 	private SkeletonJson stickJson;
@@ -137,7 +137,7 @@ public class Character {
 	public void startAnimation(){
 		if(mAnimationState != null && !TextUtils.isEmpty(animateName)){
 //			mAnimationState.setAnimation(0, animateName, true);
-			mAnimationState.setAnimation(0, "1", true);
+			mAnimationState.setAnimation(0, "1", false);
 		}
 	}
 	

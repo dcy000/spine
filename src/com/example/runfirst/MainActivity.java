@@ -23,7 +23,7 @@ public class MainActivity extends FragmentActivity implements
 		super.onCreate(savedInstanceState);
 //		  initialize( new Test1());
 //		initialize(new AddClothSimpleTest());
-//		initialize(new CharacterTest());
+//		initialize(new SimpleTest1());
 		
 //		AnimationLayer layer = new AnimationLayer("fishslap", 500f, 1f);
 //		initialize(layer);
@@ -37,6 +37,7 @@ public class MainActivity extends FragmentActivity implements
 //		layer.addPartnerPart("character/tps_f_26");
 		
 //		layer.setSingleCharacterScreen();
+		
 		setContentView(R.layout.activity_main);
 		findViewById(R.id.tv_test).setOnClickListener(this);
 		mFragment = new AnimationFragment();
@@ -55,6 +56,10 @@ public class MainActivity extends FragmentActivity implements
 //			mFragment.addOwnPart("default/scok1");
 			mFragment.addOwnPart("default/shoes1");
 			
+			mFragment.addAnimation("default/default_new");
+			mFragment.addAnimation("default/default_new");
+			mFragment.addAnimation("default/default_new");
+//			mFragment.finishAnimation();
 //			mFragment.addOwnPart("character/tps_f_26");
 //			mFragment.addOwnPart("character/pts_m_11");
 			

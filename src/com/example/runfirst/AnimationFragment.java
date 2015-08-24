@@ -31,7 +31,7 @@ public class AnimationFragment extends AndroidFragmentApplication {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 //		mAnimLayer = new AnimationLayer("fishslap", 50f, 1.0f);
-		mAnimLayer = new AnimationLayer("default/default_new", 250f, 1.0f);		
+		mAnimLayer = new AnimationLayer(250f, 1.0f);		
 	}
 	
 	@Override
@@ -77,14 +77,29 @@ public class AnimationFragment extends AndroidFragmentApplication {
 	}
 	
 	public void setOwnSkin(String skinName){
-		mAnimLayer.ownCharacter.setSkin(skinName);
+		if(!TextUtils.isEmpty(skinName)){
+			mAnimLayer.ownCharacter.setSkin(skinName);
+		}
 	}
 	
 	public void setPartnerSkin(String skinName){
-		mAnimLayer.partnerCharacter.setSkin(skinName);
+		if(!TextUtils.isEmpty(skinName)){
+			mAnimLayer.partnerCharacter.setSkin(skinName);	
+		}
 	}
 	
 	public void setOwnSlotColor(){
 		mAnimLayer.ownCharacter.setSlotColor();
+	}
+	
+	public void addAnimation(String name){
+		if(!TextUtils.isEmpty(name)){
+			mAnimLayer.addAnimation(name);
+		}
+	}
+	
+	public void finishAnimation(){
+//		mAnimLayer.mDispatcher.interrupt();
+		mAnimLayer.finishAnimation();
 	}
 }
